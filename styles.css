@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte usada no corpo da página */
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Define o preenchimento do corpo da página */
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: center; /* Alinha os itens ao centro na horizontal */
+    justify-content: center; /* Alinha os itens ao centro na vertical */
+    height: 100vh; /* Define a altura como 100% */
+    background-image: url("floral.jpg"); /* Imagem de fundo */
+    background-size: cover; /* Cobre todo o fundo com a imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+
+}
+
+.navbar {
+    width: 100%; /* Define a largura como 100% */
+    background-color: #2f0335; /*Cor de fundo da barra de navegação */
+    overflow: hidden; /* Oculta o conteúdo tranbordado */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno de 10px */
+    position: fixed; /* Fixa a barra no topo da página */
+    top: 0 /* Define a posição no topo */
+}
+
+.navbar a {
+    color: white; /* Cor do texto dos links */
+    padding: 14px 20px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    text-align: center; /* Centraliza o texto */
+    display: inline-block; /* Exibe o bloco inline */
+}
+
+.navbar a:hover {
+    background-color: #a684aa; /* Cor de fundo ao passar o mouse */
+}
+
+.image {
+    width: 390px; /* Largura da imagem */
+    height: 390px; /* Altura da imagem */
+    position: absolute; /* Posicionamento absoluto */
+    left: 150px; /* Distância da esquerda */
+    top: 200px; /* Distância do topo */
+    border-radius: 10px; /* Bordas arredondadas */
+    opacity: 0.80; /* Opacidade da imagem */
+
+}
+
+.rectangle {
+    background-color: rgba(81, 22, 84, 0.7); /* Cor de fundo com transparência */
+    position: absolute; /* Posicionamento absoluto */
+    right: 150px; /* Distância da direita */
+    top: 200px; /* Distância do topo */
+    text-align: center; /* Centraliza o texto */
+    color:#f6f3f6; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+}
+        
+.form {
+   display: flex; /* Usa flexbox para layout */
+   justify-content: center; /* Centraliza na horizontal */
+   background-color: rgba(81, 22, 84, 0.7); /* Cor de fundo com transparência */
+   text-align: center; /* Centraliza o texto */
+   margin: auto; /* Define margens automáticas */
+   width: 400px; /* Largura do formulário */
+   padding: 1em; /* Espaçamento interno */
+   border-radius: 10px; /* Bordas arredondadas */
+   
+}  
+  
+label {
+    display: block; /* Exibe como bloco */
+    width: auto; /* Largura automática */
+    text-align: left; /* Alinha o texto à esquerda */
+    color: white; /* Cor do texto */
+    margin-bottom: 5px; /* Espaçamento inferior */
+              
+  }
+  
+input,textarea {
+  text-align: center; /* Centraliza o texto */
+  font-family: Arial, Helvetica, sans-serif; /* Fonte do texto */
+  width: 100%; /* Largura */
+  max-width: 300px; /* Largura máxima */
+  padding: 5px; /* Espaçamento interno */
+  margin-bottom: 5px; /* Espaçamento inferior */
+    
+}
+
+textarea {
+  height: 100px; /* Altura do textarea */
+}
+
+input:focus, textarea:focus {
+    border-color: #2f0335; /* Cor da borda ao focar */
+}
+
+button {
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  color: #2f0335; /* Cor do texto */
+}
+
+button:hover {
+  background-color: #a684aa; /* Cor de fundo ao passar o mouse */
+}
+
+footer {
+  color: #2f0335; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 0; /* Espaçamento interno superior e inferior */
+  width: 100%; /* Largura total */
+  position: fixed; /* Fixa o rodapé na parte inferior */
+  bottom: 0; /* Define a posição na parte inferior */
+  
+}
+
+.square {
+  background-color: rgba(81, 22, 84, 0.7); /* Cor de fundo com transparência */
+  justify-content: center; /*Centraliza na horizontal */
+  color:#f6f3f6; /* Cor do texto */
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+}
